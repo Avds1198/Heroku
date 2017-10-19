@@ -1,0 +1,1 @@
+web: java -jar target/MessagingApp-1.0-SNAPSHOT
