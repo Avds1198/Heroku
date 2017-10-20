@@ -1,23 +1,18 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    
+<!doctype html>
+<html th:fragment="layout (template, menu)">
+
     <head>
         <title>Messaging App</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    
-<body>
-    
-    <div>	
-        <h1>Messaging App</h1>
-        <form method="POST" autocomplete="off">
-            <table border="0" width="30%" align="left">
+
+    <body>
+
+        <div>	
+            <h1>Messaging App</h1>
+            <form method="POST" autocomplete="off">
+                <table border="0" width="30%" align="left">
 		<tr>
 			<td>User Name</td>
  			<td><input type="text" name="username"><td>
@@ -43,15 +38,13 @@ and open the template in the editor.
  			<td><a href="registration.html">Sign Up </a></td>
  		</tr>	
 			
-            </table>	
-        </form>
-    </div>
-    <div style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;
-        cursor: pointer;line-height: 0;'>
+                </table>	
+            </form>
+        </div>
+        <div style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;
+            cursor: pointer;line-height: 0;'>
          
-    </div>
+        </div>
+    </body>
 
-
-</body>
-
-</html>
+    </html>

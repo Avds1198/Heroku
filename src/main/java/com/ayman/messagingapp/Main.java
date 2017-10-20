@@ -22,5 +22,10 @@ public class Main {
   String index() {
     return "index";
   }
+  
+    @RequestMapping("/registration")
+  String registration(){
+        return "regestration";
+    }
     
 }
